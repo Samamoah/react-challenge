@@ -1,0 +1,22 @@
+[0805/005331.327:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[0805/014429.006:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/015429.022:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/015429.023:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/015929.252:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/021429.277:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/022929.416:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/024430.207:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/025930.276:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/031506.512:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/033014.141:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/034514.378:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/040014.778:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/041514.820:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0805/043014.825:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0807/230616.432:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0822/044305.470:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0822/044305.077:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0822/044305.634:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0822/044305.649:ERROR:exception_snapshot_win.cc(98)] thread ID 3572 not found in process
+[0822/044305.649:ERROR:exception_snapshot_win.cc(98)] thread ID 9404 not found in process
+[0822/044305.649:ERROR:exception_snapshot_win.cc(98)] thread ID 9244 not found in process
