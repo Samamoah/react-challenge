@@ -3,9 +3,9 @@ import React from 'react';
 export default function Footer() {
   return (
     <>
-      <div class="bg-white mt-32 p-24 w-full font-roboto">
+      <div class="bg-white mt-32 p-24 w-full ">
         <div class="flex">
-          <div class="w-1/5">
+          <div class="w-1/5 font-roboto">
             <h4 class="font-bold text-sm mb-2 text-black-100">Contact Us</h4>
             <h5 class="font-bold text-xs uppercase mb-2 text-black-100 tracking-widest">
               Hotline: 658 567-5839
@@ -15,7 +15,7 @@ export default function Footer() {
             </p>
             <p class="text-blue text-sm">contact@company.com</p>
           </div>
-          <div class="w-1/5">
+          <div class="w-1/5 font-roboto">
             <h4 class="font-bold text-sm mb-2 text-black-100">About Us</h4>
             <ul class="text-gray-300">
               <li class="text-sm mb-2">About Company</li>
@@ -25,7 +25,7 @@ export default function Footer() {
               <li class="text-sm mb-2">Privacy</li>
             </ul>
           </div>
-          <div class="w-1/5">
+          <div class="w-1/5 font-roboto">
             <h4 class="font-bold text-sm mb-2 text-black-100">Help & Guide</h4>
             <ul class="text-gray-300">
               <li class="text-sm mb-2">Help Center</li>
@@ -39,7 +39,7 @@ export default function Footer() {
               Subscribe Newsletter
             </h4>
 
-            <p class="text-sm mb-2 mr-8 text-gray-300 ">
+            <p class="text-sm mb-2 mr-8 text-gray-300 font-roboto">
               Dont miss out on Thousands of super cool Products and Promotions
             </p>
             <div class="flex w-full">
@@ -54,7 +54,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div class="flex justify-between text-sm mt-32 text-gray-400">
+        <div class="flex justify-between font-roboto text-sm mt-32 text-gray-400">
           <p class="font-montserrat">&copy; 2020 Company</p>
           <div class="flex">
             <svg
@@ -62,7 +62,7 @@ export default function Footer() {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              class="mb-3"
+              class="mr-2"
             >
               <title>bxl-twitter</title>
               <g fill="currentColor">
@@ -74,7 +74,7 @@ export default function Footer() {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              class="mb-3"
+              class="mr-2"
             >
               <title>bxl-facebook</title>
               <g fill="currentColor">

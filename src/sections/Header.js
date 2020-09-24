@@ -3,7 +3,7 @@ import React from 'react';
 export default function Header() {
   return (
     <>
-      {/* header */}
+      {/* subheader */}
       <div class="bg-white font-semibold tracking-wide uppercase">
         <div class=" flex w-10/12 mx-auto justify-between items-center text-sm  ">
           <h2 class="flex  ">
@@ -100,7 +100,7 @@ export default function Header() {
       </div>
       {/* search */}
       <div class="bg-ivory">
-        <div class="w-10/12 flex mx-auto py-8">
+        <div class="w-10/12 flex mx-auto py-6">
           <div class="w-1/4"></div>
           <div class="w-1/2 ">
             <div class="flex w-full">
@@ -202,7 +202,7 @@ export default function Header() {
       {/* menu */}
       <div class="bg-blue">
         <div class="flex w-10/12 mx-auto">
-          <div class="w-1/4 bg-black-100 flex items-center text-white py-3 px-2 ">
+          <div class="w-64 bg-black-100 flex items-center text-white py-3 px-2 ">
             <svg
               class="mr-4 text-white"
               width="20"
@@ -242,7 +242,7 @@ export default function Header() {
             </svg>
             All departments
           </div>
-          <div class=" w-8/12 flex items-center justify-between text-white px-12 text-xs">
+          <div class="w-8/12 flex items-center justify-between text-white px-12 text-xs">
             <div class="flex items-center ">
               <select class="bg-blue text-white">
                 <option value="">Home</option>

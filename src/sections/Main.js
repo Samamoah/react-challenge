@@ -21,17 +21,17 @@ import category7 from '../assets/images/Category/image-7.png';
 export default function Main() {
   return (
     <>
-      {/* flash sales title */}
-
+      {/* flash sales */}
       <div class="w-10/12 mx-auto mb-8">
         <div class="flex justify-between items-baseline ">
-          <h1 class="text-3xl text-black-100 font-medium">Shop Flash Deals</h1>
+          <h1 class="text-2xl text-black-100 font-semibold">
+            Shop Flash Deals
+          </h1>
           <div class="text-white font-medium tracking-widest uppercase bg-red py-1 px-8 rounded-sm text-xs">
             Deals End in <span class="text-sm">:48:05:07</span>
           </div>
         </div>
       </div>
-      {/* flash sales */}
       <div class="flex mx-3 mt-8">
         <div class=" mr-12 flex items-center">
           <div class="bg-ivory p-3 mx-auto">
@@ -136,7 +136,7 @@ export default function Main() {
         </div>
 
         <div class=" ml-12 flex items-center">
-          <div class="bg-ivory p-3 mx-auto">
+          <button class="bg-ivory p-3 mx-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -154,21 +154,26 @@ export default function Main() {
                 ></path>
               </g>
             </svg>
-          </div>
+          </button>
         </div>
       </div>
+
       {/* buttons */}
       <div class="w-full mt-4 text-center">
         <span class="bg-blue w-3 h-3  rounded-full mr-2 inline-block"></span>
         <span class="bg-gray-200 w-3 h-3  rounded-full mr-2 inline-block"></span>
         <span class="bg-gray-200 w-3 h-3 rounded-full  inline-block"></span>
       </div>
+
+      {/* Ad */}
       <div class="mt-12 mb-16 flex ">
         <img src={Ad} alt="ad" class=" w-10/12 mx-auto " />
       </div>
+
+      {/* Categories */}
       <div class="w-10/12 mx-auto mt-8 mb-4">
         <div class="flex justify-between items-baseline ">
-          <h1 class="text-3xl text-black-100 font-medium">
+          <h1 class="text-2xl text-black-100 font-semibold">
             Most Popular Categories
           </h1>
           <div class="text-blue flex text-sm font-semibold">
@@ -234,9 +239,11 @@ export default function Main() {
           </div>
         </div>
       </div>
+
+      {/* Electronics */}
       <div class="w-10/12 mx-auto mt-8 mb-4">
         <div class="flex justify-between items-baseline ">
-          <h1 class="text-3xl text-black-100 font-medium">Top Electronics</h1>
+          <h1 class="text-2xl text-black-100 font-semibold">Top Electronics</h1>
 
           <div class="flex text-sm items-center font-medium">
             <div class="mr-12 text-white bg-black-100 p-1 rounded-sm">
@@ -248,7 +255,6 @@ export default function Main() {
           </div>
         </div>
       </div>
-
       <div class="mx-24">
         <div class="bg-white w-full">
           <div class="flex py-12 px-16 -mx-4 ">
@@ -322,7 +328,7 @@ export default function Main() {
                       </button>
                     </div>
                     <div class="flex  items-baseline mt-8 ">
-                      <div class="bg-ivory p-3 ml-auto mr-2">
+                      <button class="bg-ivory p-3 ml-auto mr-2">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -340,8 +346,8 @@ export default function Main() {
                             ></path>
                           </g>
                         </svg>
-                      </div>
-                      <div class="bg-ivory p-3 mr-0 ">
+                      </button>
+                      <button class="bg-ivory p-3 mr-0 ">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -359,7 +365,7 @@ export default function Main() {
                             ></path>
                           </g>
                         </svg>
-                      </div>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -368,9 +374,11 @@ export default function Main() {
           </div>
         </div>
       </div>
+
+      {/* Fashion */}
       <div class="w-10/12 mx-auto mt-8 mb-4">
         <div class="flex justify-between items-baseline ">
-          <h1 class="text-3xl text-black-100 font-medium">
+          <h1 class="text-2xl text-black-100 font-semibold">
             Top Fashion & Clothing
           </h1>
 
@@ -412,7 +420,7 @@ export default function Main() {
                       </button>
                     </div>
                     <div class="flex  items-baseline mt-8 ">
-                      <div class="bg-ivory p-3 ml-0">
+                      <button class="bg-ivory p-3 ml-0">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -430,8 +438,8 @@ export default function Main() {
                             ></path>
                           </g>
                         </svg>
-                      </div>
-                      <div class="bg-ivory p-3 mr-auto ml-2 ">
+                      </button>
+                      <button class="bg-ivory p-3 mr-auto ml-2 ">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -449,7 +457,7 @@ export default function Main() {
                             ></path>
                           </g>
                         </svg>
-                      </div>
+                      </button>
                     </div>
                   </div>
                 </div>

@@ -6,7 +6,7 @@ import Footer from './sections/Footer';
 
 function App() {
   return (
-    <div class="bg-gray-100 antialiased text-gray-400">
+    <div class="bg-gray-100 subpixel-antialiased text-gray-400">
       <Header />
       <Hero />
       <Main />

@@ -18,7 +18,7 @@ export default function Hero() {
       {/* home */}
       <div class="w-10/12 mx-auto mb-8">
         <div class="flex">
-          <div class="w-1/4">
+          <div class="w-64">
             <div class="w-full">
               <ul class="bg-white  text-xs text-gray-light">
                 <li class="flex items-center py-2 px-3   relative  border-t border-r border-l border-gray-300">
@@ -77,11 +77,11 @@ export default function Hero() {
               </ul>
             </div>
           </div>
-          <div class="w-3/4 pl-2 pt-2">
+          <div class="w-9/12 pl-2 pt-2">
             <div class="w-full bg-white px-4  py-5">
               <div class="flex">
                 <div class=" flex items-center">
-                  <div class="bg-ivory p-3 mx-auto">
+                  <button class="bg-ivory p-3 mx-auto">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -99,7 +99,7 @@ export default function Hero() {
                         ></path>
                       </g>
                     </svg>
-                  </div>
+                  </button>
                 </div>
                 <div class="">
                   <div class="flex items-center justify-between">
@@ -111,7 +111,10 @@ export default function Hero() {
                         <h2 class="uppercase font-bold text-xl mb-3 tracking-tight">
                           Ultra Boost 20
                         </h2>
-                        <p class="mb-8 text-gray-400 font-medium leading-5 text-base">
+                        <p
+                          class="mb-8 text-gray-400 leading-5"
+                          style={{ fontSize: '15px' }}
+                        >
                           Endless energy return and instant comfort with each
                           wide to keep you going further.
                         </p>
@@ -124,7 +127,7 @@ export default function Hero() {
                       <img src={shoes} alt="shoes" />
                     </div>
                   </div>
-                  <div class="w-full mt-4 text-center">
+                  <div class="w-full mt-4 mb-2 text-center">
                     <span class="bg-blue w-3 h-3  rounded-full mr-2 inline-block"></span>
                     <span class="bg-gray-200 w-3 h-3  rounded-full mr-2 inline-block"></span>
                     <span class="bg-gray-200 w-3 h-3 rounded-full  inline-block"></span>
@@ -132,7 +135,7 @@ export default function Hero() {
                 </div>
 
                 <div class=" flex items-center">
-                  <div class="bg-ivory p-3 mx-auto">
+                  <button class="bg-ivory p-3 mx-auto">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -150,7 +153,7 @@ export default function Hero() {
                         ></path>
                       </g>
                     </svg>
-                  </div>
+                  </button>
                 </div>
               </div>
             </div>
