@@ -3237,7 +3237,7 @@ video {
 }
 
 .text-xl {
-  font-size: 1.25rem;
+  font-size: 1.3125rem;
 }
 
 .text-2xl {
@@ -11791,7 +11791,7 @@ video {
   }
 
   .sm\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.3125rem;
   }
 
   .sm\:text-2xl {
@@ -20346,7 +20346,7 @@ video {
   }
 
   .md\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.3125rem;
   }
 
   .md\:text-2xl {
@@ -28901,7 +28901,7 @@ video {
   }
 
   .lg\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.3125rem;
   }
 
   .lg\:text-2xl {
@@ -37456,7 +37456,7 @@ video {
   }
 
   .xl\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.3125rem;
   }
 
   .xl\:text-2xl {
