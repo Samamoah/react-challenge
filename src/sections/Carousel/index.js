@@ -52,8 +52,8 @@ export default function Index() {
   }
 
   function showSlides(slide) {
-    if (document.getElementsByClassNameName('slides').length > 0) {
-      var slides = document.getElementsByClassNameName('slides');
+    if (document.getElementsByClassName('slides').length > 0) {
+      var slides = document.getElementsByClassName('slides');
       for (var i = 0; i < slides.length; i++) {
         if (i === slide) {
           slides[i].style.display = 'block';
@@ -119,14 +119,14 @@ export default function Index() {
             <div className="flex items-center justify-between w-10/12 mx-auto ">
               <div className="w-3/5">
                 <div className="w-9/12 mx-auto text-black-light mt-16 mySlides  transition duration-500 ease-in-out">
-                  <h2 className="uppercase font-bold text-xs mb-3 tracking-wider w-full test ">
+                  <h2 className="uppercase font-bold text-xs mb-3 tracking-wider w-full  ">
                     {slide.subtitle}
                   </h2>
-                  <h2 className="uppercase font-bold text-xl mb-3 tracking-tight w-full test">
+                  <h2 className="uppercase font-bold text-xl mb-3 tracking-tight w-full ">
                     {slide.product}
                   </h2>
                   <p
-                    className="mb-8 text-gray-400 leading-5 test"
+                    className="mb-8 text-gray-400 leading-5 "
                     style={{ fontSize: '15px' }}
                   >
                     {slide.caption}
@@ -141,7 +141,7 @@ export default function Index() {
                 <img
                   src={slides[currentSlide].image}
                   alt="shoes"
-                  className="w-full h-full test"
+                  className="w-full h-full "
                 />
               </div>
             </div>

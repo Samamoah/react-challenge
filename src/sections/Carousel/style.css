@@ -1,31 +1,11 @@
-.test {
-  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 10.5.1 */
-  -moz-animation: fadein 0.5s; /* Firefox < 16 */
-  -ms-animation: fadein 0.5s; /* Internet Explorer */
-  -o-animation: fadein 0.5s; /* Opera < 10.5.1 */
-  animation: fadein 0.5s;
+.slides {
+  z-index: 1;
+  animation: fadein 0.5s ease-in-out forwards;
+  -moz-animation: fadein 0.5s ease-in-out forwards;
+  -webkit-animation: fadein 0.5s ease-in-out forwards;
+  /* animation-delay: 2s; */
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
@@ -35,8 +15,7 @@
   }
 }
 
-/* Internet Explorer */
-@-ms-keyframes fadein {
+@-moz-keyframes fadein {
   from {
     opacity: 0;
   }
@@ -45,33 +24,7 @@
   }
 }
 
-.slides {
-  z-index: 1;
-  animation: move 0.5s ease-in-out forwards;
-  -moz-animation: move 0.5s ease-in-out forwards;
-  -webkit-animation: move 0.5s ease-in-out forwards;
-  /* animation-delay: 2s; */
-}
-
-@-webkit-keyframes move {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes move {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes move {
+@keyframes fadein {
   from {
     opacity: 0;
   }
