@@ -3,66 +3,70 @@ import React from 'react';
 export default function Footer() {
   return (
     <>
-      <div class="bg-white mt-32 p-24 w-full ">
-        <div class="flex">
-          <div class="w-1/5 font-roboto">
-            <h4 class="font-bold text-sm mb-2 text-black-100">Contact Us</h4>
-            <h5 class="font-bold text-xs uppercase mb-2 text-black-100 tracking-widest">
+      <div className="bg-white mt-32 p-24 w-full ">
+        <div className="flex">
+          <div className="w-1/5 font-roboto">
+            <h4 className="font-bold text-sm mb-2 text-black-100">
+              Contact Us
+            </h4>
+            <h5 className="font-bold text-xs uppercase mb-2 text-black-100 tracking-widest">
               Hotline: 658 567-5839
             </h5>
-            <p class="text-sm text-gray-300 mb-2 mr-8">
+            <p className="text-sm text-gray-300 mb-2 mr-8">
               7039 Grandrose St. Lumberton, NC 28358{' '}
             </p>
-            <p class="text-blue text-sm">contact@company.com</p>
+            <p className="text-blue text-sm">contact@company.com</p>
           </div>
-          <div class="w-1/5 font-roboto">
-            <h4 class="font-bold text-sm mb-2 text-black-100">About Us</h4>
-            <ul class="text-gray-300">
-              <li class="text-sm mb-2">About Company</li>
-              <li class="text-sm mb-2">Sell</li>
-              <li class="text-sm mb-2">Affilliate Program</li>
-              <li class="text-sm mb-2">Terms & Conditions</li>
-              <li class="text-sm mb-2">Privacy</li>
+          <div className="w-1/5 font-roboto">
+            <h4 className="font-bold text-sm mb-2 text-black-100">About Us</h4>
+            <ul className="text-gray-300">
+              <li className="text-sm mb-2">About Company</li>
+              <li className="text-sm mb-2">Sell</li>
+              <li className="text-sm mb-2">Affilliate Program</li>
+              <li className="text-sm mb-2">Terms & Conditions</li>
+              <li className="text-sm mb-2">Privacy</li>
             </ul>
           </div>
-          <div class="w-1/5 font-roboto">
-            <h4 class="font-bold text-sm mb-2 text-black-100">Help & Guide</h4>
-            <ul class="text-gray-300">
-              <li class="text-sm mb-2">Help Center</li>
-              <li class="text-sm mb-2">How to Buy</li>
-              <li class="text-sm mb-2">Shipping & Delivery</li>
-              <li class="text-sm mb-2">Product Policy</li>
+          <div className="w-1/5 font-roboto">
+            <h4 className="font-bold text-sm mb-2 text-black-100">
+              Help & Guide
+            </h4>
+            <ul className="text-gray-300">
+              <li className="text-sm mb-2">Help Center</li>
+              <li className="text-sm mb-2">How to Buy</li>
+              <li className="text-sm mb-2">Shipping & Delivery</li>
+              <li className="text-sm mb-2">Product Policy</li>
             </ul>
           </div>
-          <div class="w-2/5">
-            <h4 class="font-bold text-sm mb-2 text-black-100 font-montserrat">
+          <div className="w-2/5">
+            <h4 className="font-bold text-sm mb-2 text-black-100 font-montserrat">
               Subscribe Newsletter
             </h4>
 
-            <p class="text-sm mb-2 mr-8 text-gray-300 font-roboto">
+            <p className="text-sm mb-2 mr-8 text-gray-300 font-roboto">
               Dont miss out on Thousands of super cool Products and Promotions
             </p>
-            <div class="flex w-full">
+            <div className="flex w-full">
               <input
                 type="text"
                 placeholder="Enter your email here..."
-                class=" px-3 text-xs w-2/3 mr-2 bg-gray-100 text-gray-600 py-3"
+                className=" px-3 text-xs w-2/3 mr-2 bg-gray-100 text-gray-600 py-3"
               />
-              <button class="text-white bg-blue flex items-center px-3 text-xs ">
+              <button className="text-white bg-blue flex items-center px-3 text-xs ">
                 Subscribe
               </button>
             </div>
           </div>
         </div>
-        <div class="flex justify-between font-roboto text-sm mt-32 text-gray-400">
-          <p class="font-montserrat">&copy; 2020 Company</p>
-          <div class="flex">
+        <div className="flex justify-between font-roboto text-sm mt-32 text-gray-400">
+          <p className="font-montserrat">&copy; 2020 Company</p>
+          <div className="flex">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              class="mr-2"
+              className="mr-2"
             >
               <title>bxl-twitter</title>
               <g fill="currentColor">
@@ -74,7 +78,7 @@ export default function Footer() {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              class="mr-2"
+              className="mr-2"
             >
               <title>bxl-facebook</title>
               <g fill="currentColor">
@@ -95,8 +99,8 @@ export default function Footer() {
               </g>
             </svg>
           </div>
-          <div class="flex">
-            <p class="mr-8">Privacy Policy</p>
+          <div className="flex">
+            <p className="mr-8">Privacy Policy</p>
             <p>Terms of Use</p>
           </div>
         </div>
