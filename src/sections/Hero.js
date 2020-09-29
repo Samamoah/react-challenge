@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './Carousel';
+import Slider from './Slider';
 import TV from '../assets/images/tv.svg';
 import Plug from '../assets/images/plug.svg';
 import Tshirt from '../assets/images/tshirt.svg';
@@ -80,7 +80,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="w-9/12 pl-2 pt-2">
-            <Carousel />
+            <Slider />
             <div className="flex mt-2 -mx-1">
               <img src={bg} alt="shoes" className="w-1/3 px-1" />
               <img src={bg1} alt="shoes" className="w-1/3 px-1" />
